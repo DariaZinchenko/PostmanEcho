@@ -16,7 +16,7 @@ public class RequestTest {
 
           .then()
           .statusCode(200)
-          .body("data", equalTo("some data 121324124"))
+          .body("data", equalTo("some data"))
         ;
     }
 }
